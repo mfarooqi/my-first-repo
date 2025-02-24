@@ -38,4 +38,3 @@ better
 >> git checkout -B feature/lesson
 
 
-new line added
