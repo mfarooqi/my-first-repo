@@ -1,0 +1,41 @@
+commands.txt
+------------
+
+process  or called pattern
+ modified file -> staging -> committed -> remote repo
+    ^                                         |
+    |-----------------git checkout------------v
+
+
+to check latest status 
+>>git status 
+
+
+to add new/modified files to track chnages
+>>git add filenaame.ext
+
+
+to revert any file from updating (unstage)
+>>git restore --stage test.txt   
+
+
+to commit any file
+>>git commit -m "adding new files for testing" 
+ --- here m stands for message that will appear with changes or purpose
+
+
+
+
+to push files to the server
+>> git push 
+better
+>> git push -u origin feature/lesson  #(for brnach)
+
+
+
+
+----to create a new branch 
+>> git checkout -B feature/lesson
+
+
+new line added
