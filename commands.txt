@@ -21,4 +21,9 @@ to revert any file from updating (unstage)
 to commit any file
 >>git commit -m "adding new files for testing" 
  --- here m stands for message that will appear with changes or purpose
- 
+
+
+
+
+to push files to the server
+>> git push 
