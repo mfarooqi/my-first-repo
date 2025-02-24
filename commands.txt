@@ -1,5 +1,7 @@
 commands.txt
 
+
+
 process  or called pattern
  modified file -> staging -> committed -> remote repo
     ^                                         |
@@ -27,3 +29,10 @@ to commit any file
 
 to push files to the server
 >> git push 
+better
+>> git push -u origin feature/lesson  #(for brnach)
+
+
+
+to create a new branch 
+>> git checkout -B feature/lesson
