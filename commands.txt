@@ -27,3 +27,9 @@ to commit any file
 
 to push files to the server
 >> git push 
+
+
+
+
+to create a new branch 
+>> git checkout -B feature/lesson
