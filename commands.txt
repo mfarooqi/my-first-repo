@@ -1,6 +1,5 @@
 commands.txt
-
-
+------------
 
 process  or called pattern
  modified file -> staging -> committed -> remote repo
