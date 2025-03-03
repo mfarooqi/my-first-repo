@@ -35,6 +35,39 @@ better
 
 
 ----to create a new branch 
+
+>> git branch feature/lesson 
+------then to switch to that branch
+>> git switch feature/lesson
+
+
+
+----to both together 
 >> git checkout -B feature/lesson
+
+
+to make a local new repo and link that with server
+>> mkdir second-repo
+>> git init
+>> git remote -v  // check what remote connection are this active with
+---link it with the remove repo if there is one.
+>> git remote add origin http://github.com/mfarooqi/first-repo.git
+>> git remote -v //check updated links 
+>> git pull // pull everuything
+--- here nothing will be pulled yet because branch is not specified
+
+>> get checkout main //specify main branch
+>> ls //now you see the complete list
+
+>> git status
+>> vi testfile.txt // changing a file
+>> git status
+>> git commit -m "message of modification"  testfile.txt
+>> get push
+
+-----------all files are up on the first repo ..
+
+
+
 
 
