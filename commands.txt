@@ -71,3 +71,54 @@ to make a local new repo and link that with server
 
 
 
+
+
+for new version
+
+
+1. Create a New Version (v1.1)
+
+>>git tag -a v1.1 -m "Version 1.1: Updated layout & improvements"
+>>git push origin v1.1
+
+2. How to See All Versions?
+>>git tag
+
+
+3. How to Create Future Versions?
+ For v1.2, v2.0, etc., just repeat:
+
+>>git tag -a v1.2 -m "Version 1.2: Added animations"
+>>git push origin v1.2
+
+
+
+4. How to Revert to an Old Version?
+git checkout v1.1
+
+
+---------------------------------
+
+
+Tomorrow’s Steps for Updating & Tagging v1.1:
+1️⃣ Make your updates (modify your portfolio files).
+2️⃣ Add & commit changes:
+>>git add .
+>>git commit -m "Updated portfolio layout and content"
+
+
+3️⃣ Push changes to GitHub:
+>>git push origin main
+
+
+4️⃣ Tag the new version (v1.1):
+>>git tag -a v1.1 -m "Version 1.1: Updated portfolio layout and content"
+>>git push origin v1.1
+
+
+✅ Now your repo has version 1.1 marked! You can continue making more updates and tag future versions the same way.
+
+Let me know if you need any clarifications! 🚀🔥
+
+
+----------------------------
