@@ -71,6 +71,26 @@ to make a local new repo and link that with server
 
 
 
+to delte a branch
+
+git branch -d branch-name //delete local branch
+
+//to delete remote branch
+
+git push origin --delete branch-name
+
+
+
+
+
+
+
+
+
+
+
+------------------------
+
 
 
 for new version
@@ -185,6 +205,9 @@ or
 
 to compare difference agains branches
 
+git diff "branch"
+
+>git diff main
 
 
 
