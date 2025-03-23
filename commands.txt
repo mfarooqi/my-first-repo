@@ -122,3 +122,69 @@ Let me know if you need any clarifications! 🚀🔥
 
 
 ----------------------------
+
+
+about .git folder
+this contain the information 
+how does git know which branch are we wokring on
+
+>cd .git
+>cat HEAD
+ref: refs/heads/main
+
+
+ .git % cat refs/heads/main 
+167ce5a54712549b2b6d3f86adf00c39dceec850
+
+>>this hash id is the id of the branch
+
+after each commit this has is changed
+
+
+--------------------
+
+
+
+diff
+
+>> git diff HEAD  //to see changes in all fils
+
+diff --git a/README2.md b/README2.md
+index 45b983b..8075ae5 100644
+--- a/README2.md
++++ b/README2.md
+@@ -1 +1,8 @@
+ hi
++
++sajjad
++
++farooq
++
++Muhammad 
++
+
+
+>> git diff HEAD  README2.md //to chech changes in file
+
+---------------------
+
+
+
+
+log
+
+>git log  
+or
+>git log --pretty=online // to show logs in each line
+
+
+
+
+--------------------
+
+
+to compare difference agains branches
+
+
+
+
